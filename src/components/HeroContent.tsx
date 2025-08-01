@@ -20,6 +20,9 @@ const HeroContent = () => {
             </h2>
             
             <p className="text-sm text-darkBackground mb-4 font-playfair">
+            </p>
+            
+            <p className="text-4xl md:text-5xl lg:text-6xl font-bold text-darkBackground mb-8 font-montserrat">
               For Leaders tired of tech that leaves people behind
             </p>
             
