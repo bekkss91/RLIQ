@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div>
             <img 
-              src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+              src="https://raw.githubusercontent.com/bekkss91/RLIQ/main/public/logo.png" 
               alt="RLIQ Logo" 
               className="h-10 w-auto mb-4"
             />

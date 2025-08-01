@@ -11,7 +11,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <img 
-              src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+              src="https://raw.githubusercontent.com/bekkss91/RLIQ/main/public/logo.png" 
               alt="RLIQ Logo" 
               className="h-8 w-auto"
             />
