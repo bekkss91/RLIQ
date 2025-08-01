@@ -40,6 +40,7 @@ const Header = () => {
             </button>
           </div>
         </div>
+        </div>
 
         {isMenuOpen && (
           <div className="md:hidden bg-darkBackground border-t border-lightGreenAccent">
