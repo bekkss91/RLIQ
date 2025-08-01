@@ -9,26 +9,26 @@ const Hero = () => {
         <img 
           src="https://raw.githubusercontent.com/bekkss91/RLIQ/main/public/logo.png" 
           alt="RLIQ Logo Background" 
-          className="w-full h-full object-cover opacity-30"
+          className="w-full h-full object-cover"
         />
       </div>
 
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-lightGreenAccent/80 via-lightGreenAccent/60 to-logoGreen/80"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-darkBackground/90 via-transparent to-transparent"></div>
 
       {/* Content positioned below logo text area */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-96">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex items-end min-h-screen pb-20">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl md:text-5xl font-bold text-darkBackground mb-6 leading-relaxed">
+          <h1 className="text-3xl md:text-5xl font-bold text-whiteAccent mb-6 leading-relaxed">
             <span className="font-montserrat font-light">RLIQ makes </span>
-            <span className="font-montserrat font-light text-logoGreen">your org chart</span>
+            <span className="font-montserrat font-light text-mediumGreenAccent">your org chart</span>
             <span className="font-montserrat font-light"> the most </span>
-            <span className="font-playfair text-logoGreen italic">strategic tool</span>
+            <span className="font-playfair text-mediumGreenAccent italic">strategic tool</span>
             <span className="font-montserrat font-light"> in your stack.</span>
           </h1>
           
-          <p className="text-xl text-darkBackground mb-12 mx-auto leading-relaxed font-montserrat">
-            <span className="font-montserrat font-light">The Only </span><span className="font-montserrat font-light uppercase text-logoGreen">AI-powered OS</span><span className="font-montserrat font-light"> for Growing </span><span className="font-montserrat text-logoGreen">People</span><span className="font-montserrat font-light"> and </span><span className="font-montserrat text-logoGreen">Performance</span><span className="font-montserrat font-light"> – </span><span className="font-montserrat font-light italic">Together</span>
+          <p className="text-xl text-lightGreenAccent mb-12 mx-auto leading-relaxed font-montserrat">
+            <span className="font-montserrat font-light">The Only </span><span className="font-montserrat font-light uppercase text-mediumGreenAccent">AI-powered OS</span><span className="font-montserrat font-light"> for Growing </span><span className="font-montserrat text-mediumGreenAccent">People</span><span className="font-montserrat font-light"> and </span><span className="font-montserrat text-mediumGreenAccent">Performance</span><span className="font-montserrat font-light"> – </span><span className="font-montserrat font-light italic">Together</span>
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
@@ -37,14 +37,14 @@ const Hero = () => {
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </button>
             
-            <button className="group border-2 border-mediumGreenAccent text-logoGreen px-8 py-4 rounded-full text-lg font-semibold hover:bg-lightGreenAccent transition-all duration-300 flex items-center gap-2 font-montserrat uppercase">
+            <button className="group border-2 border-mediumGreenAccent text-mediumGreenAccent px-8 py-4 rounded-full text-lg font-semibold hover:bg-lightGreenAccent hover:text-darkBackground transition-all duration-300 flex items-center gap-2 font-montserrat uppercase">
               <Play size={20} />
               Watch Demo
             </button>
           </div>
 
           {/* Org Chart Visualization */}
-          <div className="relative bg-whiteAccent/80 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-lightGreenAccent max-w-4xl mx-auto">
+          <div className="relative bg-whiteAccent/90 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-lightGreenAccent max-w-4xl mx-auto">
             <div className="text-center mb-6">
               <span className="text-sm font-semibold text-logoGreen bg-lightGreenAccent px-3 py-1 rounded-full font-montserrat uppercase">
                 Transform Static → Dynamic
