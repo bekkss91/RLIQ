@@ -7,7 +7,11 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div>
-            <h3 className="text-2xl font-bold text-logoGreen mb-4 font-playfair">RLIQ</h3>
+            <img 
+              src="https://raw.githubusercontent.com/bekkss91/RLIQ/main/public/LEADERSHIP%20INTELLIGENCE%20BEYOND%20YOUR%20DASHBOARD.png" 
+              alt="RLIQ Logo" 
+              className="h-10 w-auto mb-4"
+            />
             <p className="text-lightGreenAccent mb-4 font-playfair">
               The only AI-powered operating system for growing people and performance—together.
             </p>

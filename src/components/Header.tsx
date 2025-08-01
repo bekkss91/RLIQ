@@ -10,7 +10,11 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-logoGreen font-playfair">RLIQ</h1>
+            <img 
+              src="https://raw.githubusercontent.com/bekkss91/RLIQ/main/public/LEADERSHIP%20INTELLIGENCE%20BEYOND%20YOUR%20DASHBOARD.png" 
+              alt="RLIQ Logo" 
+              className="h-8 w-auto"
+            />
           </div>
           
           <nav className="hidden md:flex space-x-8 font-montserrat">
