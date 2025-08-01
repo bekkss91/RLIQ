@@ -11,25 +11,25 @@ const HeroContent = () => {
             As your tech stack grows, are your people more in the dark then ever?
           </h1>
 
-          {/* Meet RLIQ Section - Centered */}
-          <div className="text-center mt-8 md:mt-0 mb-12">
+          {/* Meet RLIQ Section - Centered with expanded margins */}
+          <div className="text-center mt-8 md:mt-0 mb-12 max-w-7xl mx-auto px-8">
             <h2 className="text-4xl md:text-5xl font-bold text-darkBackground mb-6 font-montserrat">
               Meet RLIQ.
             </h2>
             
-            <p className="text-xl text-darkBackground mb-4 font-playfair max-w-5xl mx-auto">
+            <p className="text-xl text-darkBackground mb-4 font-playfair whitespace-nowrap overflow-hidden text-ellipsis">
               We're tired of tech that leaves people behind. We are the only platform designed for Regenerative Leadership Intelligence.
             </p>
             
-            <p className="text-xl text-darkBackground mb-4 font-playfair max-w-5xl mx-auto">
+            <p className="text-xl text-darkBackground mb-4 font-playfair whitespace-nowrap overflow-hidden text-ellipsis">
               Before RLIQ: You're running your business with yesterday's map. Siloed data. Roles misaligned. People lost in the noise, while "potential" slips through the cracks as tech takes the lead. You're not just leaving money on the table, you're leaving growth, engagement, and momentum behind.
             </p>
             
-            <p className="text-xl text-darkBackground mb-4 font-playfair max-w-5xl mx-auto">
+            <p className="text-xl text-darkBackground mb-4 font-playfair whitespace-nowrap overflow-hidden text-ellipsis">
               After RLIQ: Every person, every project, every metric connected and alive. Your org chart isn't a relic, it's a real-time ecosystem, always shifting, always optimizing. You see your talent, your bottlenecks, and your blind spots...before they cost you.
             </p>
             
-            <p className="text-xl font-bold text-darkBackground font-playfair max-w-5xl mx-auto">
+            <p className="text-xl font-bold text-darkBackground font-playfair whitespace-nowrap overflow-hidden text-ellipsis">
               Growth isn't luck. It's architecture.
             </p>
           </div>
