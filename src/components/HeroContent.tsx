@@ -19,18 +19,6 @@ const HeroContent = () => {
             <span className="font-montserrat font-light">The Only </span><span className="font-montserrat font-light uppercase text-mediumGreenAccent">AI-powered OS</span><span className="font-montserrat font-light"> for Growing </span><span className="font-montserrat text-mediumGreenAccent">People</span><span className="font-montserrat font-light"> and </span><span className="font-montserrat text-mediumGreenAccent">Performance</span><span className="font-montserrat font-light"> – </span><span className="font-montserrat font-light italic">Together</span>
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-            <button className="group bg-mediumGreenAccent text-darkBackground px-8 py-4 rounded-full text-lg font-semibold hover:bg-logoGreen transition-all duration-300 flex items-center gap-2 shadow-lg hover:shadow-xl font-montserrat uppercase">
-              See RLIQ in Action
-              <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-            </button>
-            
-            <button className="group border-2 border-mediumGreenAccent text-mediumGreenAccent px-8 py-4 rounded-full text-lg font-semibold hover:bg-lightGreenAccent hover:text-darkBackground transition-all duration-300 flex items-center gap-2 font-montserrat uppercase">
-              <Play size={20} />
-              Watch Demo
-            </button>
-          </div>
-
           {/* Org Chart Visualization */}
           <div className="relative bg-darkBackground/95 backdrop-blur-sm rounded-3xl p-6 shadow-2xl border border-lightGreenAccent max-w-2xl mx-auto mb-8">
             <div className="text-left mb-6">
