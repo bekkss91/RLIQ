@@ -19,7 +19,7 @@ const HeroContent = () => {
               <span className="font-montserrat">.</span>
             </h2>
             
-            <p className="text-lg text-darkBackground mb-4 font-playfair">
+            <p className="text-sm text-darkBackground mb-4 font-playfair">
               We're tired of tech that leaves people behind. We are the only platform designed for Regenerative Leadership Intelligence.
             </p>
             
