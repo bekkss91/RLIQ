@@ -12,26 +12,26 @@ const HeroContent = () => {
           </h1>
 
           {/* Meet RLIQ Section - Centered with expanded margins */}
-          <div className="text-center mt-8 md:mt-0 mb-12 max-w-5xl mx-auto px-8">
+          <div className="text-center mt-8 md:mt-0 mb-12 max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-5xl font-bold text-darkBackground mb-6 font-montserrat">
               <span className="font-montserrat font-light">Meet </span>
               <span className="font-montserrat font-light text-mediumGreenAccent">RLIQ</span>
               <span className="font-montserrat font-light">.</span>
             </h2>
             
-            <p className="text-xl text-darkBackground mb-4 font-playfair">
+            <p className="text-lg text-darkBackground mb-4 font-playfair">
               We're tired of tech that leaves people behind. We are the only platform designed for Regenerative Leadership Intelligence.
             </p>
             
-            <p className="text-xl text-darkBackground mb-4 font-playfair">
+            <p className="text-lg text-darkBackground mb-4 font-playfair">
               Before RLIQ: You're running your business with yesterday's map. Siloed data. Roles misaligned. People lost in the noise, while "potential" slips through the cracks as tech takes the lead. You're not just leaving money on the table, you're leaving growth, engagement, and momentum behind.
             </p>
             
-            <p className="text-xl text-darkBackground mb-4 font-playfair">
+            <p className="text-lg text-darkBackground mb-4 font-playfair">
               After RLIQ: Every person, every project, every metric connected and alive. Your org chart isn't a relic, it's a real-time ecosystem, always shifting, always optimizing. You see your talent, your bottlenecks, and your blind spots...before they cost you.
             </p>
             
-            <p className="text-xl font-bold text-darkBackground font-playfair">
+            <p className="text-lg font-bold text-darkBackground font-playfair">
               Growth isn't luck. It's architecture.
             </p>
           </div>
