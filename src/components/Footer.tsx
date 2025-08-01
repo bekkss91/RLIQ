@@ -10,7 +10,7 @@ const Footer = () => {
             <img 
               src="https://raw.githubusercontent.com/bekkss91/RLIQ/main/public/logo.png" 
               alt="RLIQ Logo" 
-              className="h-10 w-auto mb-4"
+              className="h-20 w-auto mb-4"
             />
             <p className="text-lightGreenAccent mb-4 font-playfair">
               The only AI-powered operating system for growing people and performance—together.

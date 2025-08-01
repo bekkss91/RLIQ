@@ -10,9 +10,9 @@ export default {
       colors: {
         darkBackground: '#063231',
         whiteAccent: '#f9f9f9',
-        lightGreenAccent: '#dbe3bc',
-        mediumGreenAccent: '#bdcd7f',
-        logoGreen: '#a0b743',
+        lightGreenAccent: '#4a5d3a',
+        mediumGreenAccent: '#3d4f2f',
+        logoGreen: '#2d3d24',
       },
     },
   },
