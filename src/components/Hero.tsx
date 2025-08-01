@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-t from-darkBackground/90 via-transparent to-transparent"></div>
 
       {/* Content positioned below logo text area */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex items-end min-h-screen pb-8">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex items-end min-h-screen pb-2">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl md:text-5xl font-bold text-whiteAccent mb-6 leading-relaxed">
             <span className="font-montserrat font-light">RLIQ makes </span>
@@ -44,14 +44,14 @@ const Hero = () => {
           </div>
 
           {/* Org Chart Visualization */}
-          <div className="relative bg-whiteAccent/90 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-lightGreenAccent max-w-4xl mx-auto">
+          <div className="relative bg-whiteAccent/95 backdrop-blur-sm rounded-3xl p-6 shadow-2xl border border-lightGreenAccent max-w-3xl mx-auto">
             <div className="text-center mb-6">
               <span className="text-sm font-semibold text-logoGreen bg-lightGreenAccent px-3 py-1 rounded-full font-montserrat uppercase">
                 Transform Static → Dynamic
               </span>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Before - Static */}
               <div className="text-center">
                 <h3 className="text-lg font-semibold text-darkBackground mb-4 font-montserrat uppercase">Before: Static Org Chart</h3>
@@ -68,7 +68,7 @@ const Hero = () => {
               {/* After - Dynamic */}
               <div className="text-center">
                 <h3 className="text-lg font-semibold text-logoGreen mb-4 font-montserrat uppercase">After: Living Strategic Map</h3>
-                <div className="relative w-48 h-48 mx-auto">
+                <div className="relative w-40 h-40 mx-auto">
                   {/* Ecosystem boundary */}
                   <div className="absolute inset-0 border-2 border-dashed border-mediumGreenAccent rounded-full opacity-50"></div>
                   
