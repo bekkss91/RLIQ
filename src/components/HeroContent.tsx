@@ -8,7 +8,7 @@ const HeroContent = () => {
         <div className="max-w-4xl mx-auto text-center">
           
           <h1 className="text-3xl md:text-5xl font-bold text-darkBackground mb-12 leading-relaxed">
-            <span className="font-montserrat font-light">RLIQ makes </span>
+            <span className="font-montserrat font-light">Make </span>
             <span className="font-montserrat font-light text-mediumGreenAccent">your org chart</span>
             <span className="font-montserrat font-light"> the most </span>
             <span className="font-playfair text-mediumGreenAccent italic">strategic tool</span>
