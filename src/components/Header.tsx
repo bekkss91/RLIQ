@@ -13,7 +13,7 @@ const Header = () => {
             <img 
               src="https://raw.githubusercontent.com/bekkss91/RLIQ/main/public/logo.png" 
               alt="RLIQ Logo" 
-              className="h-8 w-auto"
+              className="h-16 w-auto"
             />
           </div>
           
