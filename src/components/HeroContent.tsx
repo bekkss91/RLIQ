@@ -20,7 +20,7 @@ const HeroContent = () => {
             </h2>
             
             <p className="text-sm text-darkBackground mb-4 font-playfair">
-              We're tired of tech that leaves people behind. We are the only platform designed for Regenerative Leadership Intelligence.
+              For Leaders tired of tech that leaves people behind
             </p>
             
             <p className="text-lg text-darkBackground mb-4 font-playfair">
