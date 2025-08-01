@@ -7,7 +7,7 @@ const HeroContent = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           
-          <h1 className="text-3xl md:text-4xl font-bold text-darkBackground leading-relaxed font-montserrat mb-12">
+          <h1 className="text-3xl md:text-4xl font-light text-darkBackground leading-relaxed font-montserrat mb-12">
             As your tech stack grows, are your people more in the dark then ever?
           </h1>
 
