@@ -12,7 +12,7 @@ const HeroContent = () => {
           </h1>
 
           {/* Meet RLIQ Section - Centered with expanded margins */}
-          <div className="text-center mt-8 md:mt-0 mb-12 max-w-4xl mx-auto">
+          <div className="text-center mt-8 md:mt-0 mb-8 max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold text-darkBackground mb-6 font-montserrat">
               <span className="font-montserrat">Meet </span>
               <span className="font-montserrat">RLIQ</span>
