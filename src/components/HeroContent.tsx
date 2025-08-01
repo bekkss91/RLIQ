@@ -15,7 +15,7 @@ const HeroContent = () => {
             <span className="font-montserrat font-light"> in your stack.</span>
           </h1>
           
-          <p className="text-xl text-darkBackground mb-12 leading-relaxed font-montserrat">
+          <p className="text-xl text-darkBackground mb-12 leading-relaxed font-montserrat mt-32">
             <span className="font-montserrat font-light">The Only </span><span className="font-montserrat font-light uppercase text-mediumGreenAccent">AI-powered OS</span><span className="font-montserrat font-light"> for Growing </span><span className="font-montserrat text-mediumGreenAccent">People</span><span className="font-montserrat font-light"> and </span><span className="font-montserrat text-mediumGreenAccent">Performance</span><span className="font-montserrat font-light"> – </span><span className="font-montserrat font-light italic">Together</span>
           </p>
 
