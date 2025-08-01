@@ -7,17 +7,45 @@ const HeroContent = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           
-          <h1 className="text-3xl md:text-5xl font-bold text-darkBackground mb-12 leading-relaxed">
-            <span className="font-montserrat font-light">Make </span>
-            <span className="font-montserrat font-light text-mediumGreenAccent">your org chart</span>
-            <span className="font-montserrat font-light"> the most</span><br />
-            <span className="font-playfair text-mediumGreenAccent italic">strategic tool</span>
-            <span className="font-montserrat font-light"> in your stack.</span>
-          </h1>
-          
-          <p className="text-xl text-darkBackground mb-12 leading-relaxed font-montserrat mt-32">
-            <span className="font-montserrat font-light">The Only </span><span className="font-montserrat font-light uppercase text-mediumGreenAccent">AI-powered OS</span><span className="font-montserrat font-light"> for Growing </span><span className="font-montserrat text-mediumGreenAccent">People</span><span className="font-montserrat font-light"> and </span><span className="font-montserrat text-mediumGreenAccent">Performance</span><span className="font-montserrat font-light"> – </span><span className="font-montserrat font-light italic">Together</span>
-          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 md:gap-12 items-start mb-12">
+            {/* Left Column */}
+            <div className="text-left">
+              <h1 className="text-3xl md:text-5xl font-bold text-darkBackground mb-8 leading-relaxed">
+                <span className="font-montserrat font-light">Make </span>
+                <span className="font-montserrat font-light text-mediumGreenAccent">your org chart</span>
+                <span className="font-montserrat font-light"> the most</span><br />
+                <span className="font-playfair text-mediumGreenAccent italic">strategic tool</span>
+                <span className="font-montserrat font-light"> in your stack.</span>
+              </h1>
+              
+              <h2 className="text-3xl md:text-4xl font-bold text-darkBackground leading-relaxed font-montserrat">
+                Does your tech stack keep growing, but your people are more in the dark than ever?
+              </h2>
+            </div>
+
+            {/* Right Column - Meet RLIQ */}
+            <div className="text-left mt-8 md:mt-0">
+              <h2 className="text-4xl md:text-5xl font-bold text-darkBackground mb-6 font-montserrat">
+                Meet RLIQ.
+              </h2>
+              
+              <p className="text-lg text-darkBackground mb-4 font-playfair">
+                We're tired of tech that leaves people behind. We are the only platform designed for Regenerative Leadership Intelligence.
+              </p>
+              
+              <p className="text-lg text-darkBackground mb-4 font-playfair">
+                Before RLIQ: You're running your business with yesterday's map. Siloed data. Roles misaligned. People lost in the noise, while "potential" slips through the cracks as tech takes the lead. You're not just leaving money on the table, you're leaving growth, engagement, and momentum behind.
+              </p>
+              
+              <p className="text-lg text-darkBackground mb-4 font-playfair">
+                After RLIQ: Every person, every project, every metric connected and alive. Your org chart isn't a relic, it's a real-time ecosystem, always shifting, always optimizing. You see your talent, your bottlenecks, and your blind spots...before they cost you.
+              </p>
+              
+              <p className="text-lg font-bold text-darkBackground font-playfair">
+                Growth isn't luck. It's architecture.
+              </p>
+            </div>
+          </div>
 
           {/* Org Chart Visualization */}
           <div className="relative bg-darkBackground/95 backdrop-blur-sm rounded-3xl p-6 shadow-2xl border border-lightGreenAccent max-w-2xl mx-auto mb-8">
