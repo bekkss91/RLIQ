@@ -8,7 +8,7 @@ const Hero = () => {
         <img 
           src="https://raw.githubusercontent.com/bekkss91/RLIQ/main/public/logo.png" 
           alt="RLIQ Logo Background" 
-          className="w-full h-full object-cover"
+          className="w-full h-full object-contain"
         />
       </div>
 
