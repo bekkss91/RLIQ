@@ -17,19 +17,19 @@ const HeroContent = () => {
               Meet RLIQ.
             </h2>
             
-            <p className="text-lg text-darkBackground mb-4 font-playfair">
+            <p className="text-xl text-darkBackground mb-4 font-playfair max-w-5xl mx-auto">
               We're tired of tech that leaves people behind. We are the only platform designed for Regenerative Leadership Intelligence.
             </p>
             
-            <p className="text-lg text-darkBackground mb-4 font-playfair">
+            <p className="text-xl text-darkBackground mb-4 font-playfair max-w-5xl mx-auto">
               Before RLIQ: You're running your business with yesterday's map. Siloed data. Roles misaligned. People lost in the noise, while "potential" slips through the cracks as tech takes the lead. You're not just leaving money on the table, you're leaving growth, engagement, and momentum behind.
             </p>
             
-            <p className="text-lg text-darkBackground mb-4 font-playfair">
+            <p className="text-xl text-darkBackground mb-4 font-playfair max-w-5xl mx-auto">
               After RLIQ: Every person, every project, every metric connected and alive. Your org chart isn't a relic, it's a real-time ecosystem, always shifting, always optimizing. You see your talent, your bottlenecks, and your blind spots...before they cost you.
             </p>
             
-            <p className="text-lg font-bold text-darkBackground font-playfair">
+            <p className="text-xl font-bold text-darkBackground font-playfair max-w-5xl mx-auto">
               Growth isn't luck. It's architecture.
             </p>
           </div>
