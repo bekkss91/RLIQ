@@ -3,15 +3,21 @@ import { ArrowRight, Play } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-lightGreenAccent via-lightGreenAccent to-logoGreen overflow-hidden pt-16">
-      {/* Organic background shapes */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-mediumGreenAccent rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-pulse"></div>
-        <div className="absolute top-40 right-10 w-96 h-96 bg-mediumGreenAccent rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-pulse delay-1000"></div>
-        <div className="absolute -bottom-20 left-20 w-80 h-80 bg-logoGreen rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-pulse delay-2000"></div>
+    <section className="relative min-h-screen overflow-hidden pt-16">
+      {/* Logo Background */}
+      <div className="absolute inset-0 flex items-center justify-center">
+        <img 
+          src="https://raw.githubusercontent.com/bekkss91/RLIQ/main/public/logo.png" 
+          alt="RLIQ Logo Background" 
+          className="w-full h-full object-contain opacity-10 scale-150"
+        />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      {/* Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-br from-lightGreenAccent/80 via-lightGreenAccent/60 to-logoGreen/80"></div>
+
+      {/* Content positioned below logo text area */}
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-96">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl md:text-5xl font-bold text-darkBackground mb-6 leading-relaxed">
             <span className="font-montserrat font-light">RLIQ makes </span>

@@ -6,16 +6,11 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 w-full bg-darkBackground/90 backdrop-blur-sm border-b border-lightGreenAccent z-50">
+    <header className="fixed top-0 w-full bg-darkBackground/95 backdrop-blur-sm border-b border-lightGreenAccent z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-        <div className="flex justify-between items-center h-32">
           <div className="flex-shrink-0">
-            <img 
-              src="https://raw.githubusercontent.com/bekkss91/RLIQ/main/public/logo.png" 
-              alt="RLIQ Logo" 
-              className="h-32 w-auto"
-            />
+            <span className="text-2xl font-bold text-whiteAccent font-montserrat">RLIQ</span>
           </div>
           
           <nav className="hidden md:flex space-x-8 font-montserrat">
@@ -39,7 +34,6 @@ const Header = () => {
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
-        </div>
         </div>
 
         {isMenuOpen && (
