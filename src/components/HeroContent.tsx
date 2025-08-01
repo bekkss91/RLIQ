@@ -11,8 +11,8 @@ const HeroContent = () => {
             <span className="font-light">As your </span><span className="text-mediumGreenAccent font-light">tech stack</span><span className="font-light"> grows, are your </span><span className="font-playfair text-mediumGreenAccent italic">people</span><br /><span className="font-light">more in the dark than </span><em className="font-light">ever</em><span className="font-light">?</span>
           </h1>
 
-          {/* Meet RLIQ Section - Centered with expanded margins */}
-          <div className="text-center mt-8 md:mt-0 mb-4 max-w-4xl mx-auto">
+          {/* Meet RLIQ Section - Centered with reduced top margin */}
+          <div className="text-center mt-2 md:mt-0 mb-4 max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold text-darkBackground mb-6 font-montserrat">
               <span className="font-montserrat">Meet </span>
               <span className="font-montserrat">RLIQ</span>
