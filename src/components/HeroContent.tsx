@@ -23,7 +23,7 @@ const HeroContent = () => {
             </p>
             
             <p className="text-lg md:text-xl lg:text-2xl font-bold text-darkBackground mb-8 font-montserrat">
-              <span className="font-light uppercase">For Leaders tired of tech that leaves people behind</span>
+              <span className="font-light uppercase">For Leaders tired of tech that leaves </span><span className="font-playfair text-mediumGreenAccent italic">people</span><span className="font-light uppercase"> behind</span>
             </p>
             
             <p className="text-lg text-darkBackground mb-4 font-playfair">
