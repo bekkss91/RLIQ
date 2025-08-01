@@ -3,11 +3,11 @@ import { ArrowRight, Play } from 'lucide-react';
 
 const HeroContent = () => {
   return (
-    <section className="py-20 bg-whiteAccent">
+    <section className="py-8 bg-whiteAccent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           
-          <h1 className="text-3xl md:text-5xl font-bold text-darkBackground mb-6 leading-relaxed">
+          <h1 className="text-3xl md:text-5xl font-bold text-darkBackground mb-12 leading-relaxed">
             <span className="font-montserrat font-light">RLIQ makes </span>
             <span className="font-montserrat font-light text-mediumGreenAccent">your org chart</span>
             <span className="font-montserrat font-light"> the most </span>
