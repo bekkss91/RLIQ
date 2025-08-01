@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-t from-darkBackground/90 via-transparent to-transparent"></div>
 
       {/* Content positioned below logo text area */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex items-end min-h-screen pb-20">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex items-end min-h-screen pb-8">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl md:text-5xl font-bold text-whiteAccent mb-6 leading-relaxed">
             <span className="font-montserrat font-light">RLIQ makes </span>
