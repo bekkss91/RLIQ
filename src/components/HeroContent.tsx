@@ -12,7 +12,7 @@ const HeroContent = () => {
           </h1>
 
           {/* Meet RLIQ Section - Centered with expanded margins */}
-          <div className="text-center mt-8 md:mt-0 mb-8 max-w-4xl mx-auto">
+          <div className="text-center mt-8 md:mt-0 mb-4 max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold text-darkBackground mb-6 font-montserrat">
               <span className="font-montserrat">Meet </span>
               <span className="font-montserrat">RLIQ</span>
@@ -22,7 +22,7 @@ const HeroContent = () => {
             <p className="text-sm text-darkBackground mb-4 font-playfair">
             </p>
             
-            <p className="text-lg md:text-xl lg:text-2xl font-bold text-darkBackground mb-8 font-montserrat">
+            <p className="text-lg md:text-xl lg:text-2xl font-bold text-darkBackground mb-4 font-montserrat">
               <span className="font-light uppercase">For Leaders tired of tech that leaves </span><span className="font-playfair text-mediumGreenAccent italic text-xl md:text-2xl lg:text-3xl">people</span><span className="font-light uppercase"> behind</span>
             </p>
             
