@@ -8,7 +8,7 @@ const HeroContent = () => {
         <div className="max-w-4xl mx-auto text-center">
           
           <h1 className="text-3xl md:text-4xl font-light text-darkBackground leading-relaxed font-montserrat mb-12">
-            As your tech stack grows, are your people more in the dark then ever?
+            As your <span className="text-mediumGreenAccent">tech stack</span> grows, are your people more in the dark then ever?
           </h1>
 
           {/* Meet RLIQ Section - Centered with expanded margins */}
