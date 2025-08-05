@@ -23,10 +23,6 @@ const HeroContent = () => {
             </p>
             
             <p className="text-lg md:text-xl lg:text-2xl font-bold text-darkBackground mb-4 font-montserrat">
-              <span className="font-light uppercase">For Leaders tired of tech that leaves </span><span className="font-playfair text-mediumGreenAccent italic text-xl md:text-2xl lg:text-3xl">people</span><span className="font-light uppercase"> behind</span>
-            </p>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
               {/* Before RLIQ */}
               <div className="bg-lightGreenAccent/30 rounded-xl p-6 border border-lightGreenAccent">
                 <h3 className="text-xl font-bold text-darkBackground mb-4 font-montserrat uppercase">Before RLIQ</h3>
