@@ -26,13 +26,61 @@ const HeroContent = () => {
               <span className="font-light uppercase">For Leaders tired of tech that leaves </span><span className="font-playfair text-mediumGreenAccent italic text-xl md:text-2xl lg:text-3xl">people</span><span className="font-light uppercase"> behind</span>
             </p>
             
-            <p className="text-lg text-darkBackground mb-4 font-playfair">
-              Before RLIQ: You're running your business with yesterday's map. Siloed data. Roles misaligned. People lost in the noise, while "potential" slips through the cracks as tech takes the lead. You're not just leaving money on the table, you're leaving growth, engagement, and momentum behind.
-            </p>
-            
-            <p className="text-lg text-darkBackground mb-4 font-playfair">
-              After RLIQ: Every person, every project, every metric connected and alive. Your org chart isn't a relic, it's a real-time ecosystem, always shifting, always optimizing. You see your talent, your bottlenecks, and your blind spots...before they cost you.
-            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+              {/* Before RLIQ */}
+              <div className="bg-lightGreenAccent/30 rounded-xl p-6 border border-lightGreenAccent">
+                <h3 className="text-xl font-bold text-darkBackground mb-4 font-montserrat uppercase">Before RLIQ</h3>
+                <ul className="space-y-2 text-darkBackground font-playfair">
+                  <li className="flex items-start gap-2">
+                    <span className="text-red-500 font-bold mt-1">•</span>
+                    <span>Running your business with yesterday's map</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-red-500 font-bold mt-1">•</span>
+                    <span>Siloed data and misaligned roles</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-red-500 font-bold mt-1">•</span>
+                    <span>People lost in the noise</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-red-500 font-bold mt-1">•</span>
+                    <span>Potential slips through the cracks</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-red-500 font-bold mt-1">•</span>
+                    <span>Leaving growth, engagement, and momentum behind</span>
+                  </li>
+                </ul>
+              </div>
+
+              {/* After RLIQ */}
+              <div className="bg-mediumGreenAccent/20 rounded-xl p-6 border border-mediumGreenAccent">
+                <h3 className="text-xl font-bold text-darkBackground mb-4 font-montserrat uppercase">After RLIQ</h3>
+                <ul className="space-y-2 text-darkBackground font-playfair">
+                  <li className="flex items-start gap-2">
+                    <span className="text-logoGreen font-bold mt-1">•</span>
+                    <span>Every person, project, and metric connected</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-logoGreen font-bold mt-1">•</span>
+                    <span>Real-time ecosystem that's always optimizing</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-logoGreen font-bold mt-1">•</span>
+                    <span>Clear visibility of talent and bottlenecks</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-logoGreen font-bold mt-1">•</span>
+                    <span>Spot blind spots before they cost you</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-logoGreen font-bold mt-1">•</span>
+                    <span>Org chart becomes a strategic tool</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
             
             <p className="text-lg font-bold text-darkBackground font-playfair">
               Growth isn't luck. It's architecture.
