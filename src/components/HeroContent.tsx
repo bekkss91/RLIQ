@@ -8,7 +8,7 @@ const HeroContent = () => {
         <div className="max-w-4xl mx-auto text-center">
           
           <h1 className="text-3xl md:text-4xl font-bold text-darkBackground leading-relaxed font-montserrat mb-12">
-            <span className="font-light">As your </span><span className="text-mediumGreenAccent font-light">tech stack</span><span className="font-light"> grows, are your </span><span className="font-playfair text-mediumGreenAccent italic">leaders</span><br /><span className="font-light">more in the dark than </span><em className="font-light">ever</em><span className="font-light">?</span>
+            <span className="font-light">As your </span><span className="text-mediumGreenAccent font-light">tech stack</span><span className="font-light"> grows, are your </span><span className="font-playfair text-mediumGreenAccent italic">people leaders</span><br /><span className="font-light">more in the dark than </span><em className="font-light">ever</em><span className="font-light">?</span>
           </h1>
 
           {/* Meet RLIQ Section - Centered with reduced top margin */}
