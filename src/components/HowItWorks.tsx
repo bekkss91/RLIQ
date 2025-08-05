@@ -21,7 +21,7 @@ const HowItWorks = () => {
     {
       icon: <Users className="w-8 h-8" />,
       title: "Grow Continuously",
-      description: "Get real-time insights and actionable steps—live, not once a year"
+      description: "Get real-time insights and actionable steps—in real time, not once a year"
     }
   ];
 
@@ -58,7 +58,7 @@ const HowItWorks = () => {
                 <div className="hidden lg:block absolute top-1/2 -right-4 w-8 h-0.5 bg-lightGreenAccent transform -translate-y-1/2"></div>
               )}
             </div>
-          ))}
+          surfaces untapped capacity, and shows you how to grow next—in real time, not once a year.
         </div>
       </div>
     </section>
