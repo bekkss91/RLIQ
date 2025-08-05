@@ -21,7 +21,7 @@ const HowItWorks = () => {
     {
       icon: <Users className="w-8 h-8" />,
       title: "Grow Continuously",
-      description: "Get real-time insights and actionable steps—live, not once a year"
+      description: "Get real-time insights and actionable steps—in real time, not once a year"
     }
   ];
 
